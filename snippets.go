@@ -220,7 +220,7 @@ func (s *SnippetsService) SnippetContent(snippet int, options ...RequestOptionFu
 	return b.Bytes(), resp, err
 }
 
-// SnippetContentAtFile returns the raw snippet at file as plain text..
+// SnippetContentAtFile returns the raw snippet at file as plain text.
 //
 // GitLab API docs:
 // https://docs.gitlab.com/ee/api/snippets.html#snippet-repository-file-content
